@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Nunito:wght@500&family=Open+Sans&family=Roboto:wght@500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Dancing Script", cursive;
+  font-family: "Nunito", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+#start {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10%;
+  padding: 4%;
+}
+#start img {
+  width: 40%;
+  margin: auto;
+  margin-bottom: 1%;
+}
+#resultPart img {
+  width: 40%;
+  margin: auto;
+  margin-bottom: 1%;
+}
+#math-operation img {
+  width: 40%;
+  margin: auto;
+  margin-bottom: 1%;
+}
+#start button {
+  width: 50%;
+  margin: auto;
+  font-size: 16px;
+  padding: 10px 30px;
+  color: white;
+  background: #38b2f3;
+  border: none;
+  cursor: pointer;
+  margin-top: 1%;
+}
+#math-operation {
+  width: 40%;
+  margin: auto;
+  margin-top: 10%;
+  text-align: center;
+  display: none;
+  padding: 4%;
+}
+#math-operation button {
+  width: 50%;
+  margin: auto;
+  margin-top: 1%;
+  padding: 10px 30px;
+  color: white;
+  background: #38b2f3;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+#resultPart {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  margin-top: 10%;
+  text-align: center;
+  justify-content: center;
+  padding: 4%;
+  font-size: 16px;
+}
+#resultPart button {
+  width: 50%;
+  margin: auto;
+  padding: 10px 30px;
+  color: white;
+  background: #38b2f3;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 1%;
+}

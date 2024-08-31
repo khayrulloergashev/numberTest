@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Math tests</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="start">
+      <img src="./logo.png" alt="" />
+      <h1>Xush kelibsiz</h1>
+      <button id="start-button" onclick="StartButton()">Testni boshlash</button>
+    </div>
+
+    <div id="math-operation">
+      <img src="./logo.png" alt="" />
+      <div>
+        <span id="number1"> </span><span id="action">-</span
+        ><span id="number2"> </span><span> = </span
+        ><input type="number" id="result" />
+      </div>
+      <div>
+        <button id="next" onclick="NexOperation()">Keyingisi</button>
+      </div>
+    </div>
+
+    <div id="resultPart">
+      <img src="./logo.png" alt="" />
+      <div id="resultTexts">
+        <div id="umumiy"></div>
+        <div id="cor"></div>
+        <div id="icor"></div>
+      </div>
+      <button onclick="StartButton()">Qayta urinish</button>
+      <button onclick="EndButton()" style="background: #fec401">
+        Bosh sahifaga qaytish
+      </button>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
